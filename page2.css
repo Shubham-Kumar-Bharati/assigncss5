@@ -1,0 +1,38 @@
+body{
+    background-color:  rgb(228, 228, 45);;
+}
+h1{
+    text-align: center;
+}
+.main-container{
+    text-align: center;
+}
+.common{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+    transition: all 2s cubic-bezier(0, 0.05, 0.99, 0.84);
+}
+.one:hover{
+    width: 250px;
+}
+.two:hover{
+    width: 250px;
+    height: 250px;
+}
+.three:hover{
+    width: 250px;
+}
+.four:hover{
+    width: 250px;
+}
+.five:hover{
+    width: 250px;
+}
+.six:hover{
+    width: 250px;
+}
+.seven:hover{
+    width: 250px;
+}

@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(228, 228, 45);
+}
+h1{
+    text-align: center;
+}
+.main-container{
+ /* position: relative;
+ left: 100px; */
+ text-align: center;
+}
+.first{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(57, 57, 159);
+    display: inline-block;
+    margin: 20px;
+    animation: skewfirst 1.5s alternate infinite linear;
+}
+@keyframes skewfirst {
+    from{
+        transform: skew(20deg);
+    }
+    to{
+        transform: skew(-20deg);
+    }
+}
+.second{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(142, 113, 168);
+    display: inline-block;
+    margin: 20px;
+    animation: skewsecond 1.5s alternate infinite linear;
+}
+@keyframes skewsecond {
+    from{
+        transform: skewY(20deg);
+    }
+    to{
+        transform: skewY(-20deg);
+    }
+}
+.third{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(89, 89, 167);
+    display: inline-block;
+    margin: 20px;
+    animation: rotatethird 1.5s normal infinite linear;
+}
+@keyframes rotatethird {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+    
+}
+.fourth{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 20px;
+}
+.scaleY{
+    background-color: skyblue;
+    border: 4px solid rgb(75, 135, 159);
+    animation: scaleY 2s infinite alternate cubic-bezier(0, 0.05, 0.99, 0.84);
+}
+@keyframes scaleY {
+    from{
+        transform: scaleY(0.5);
+    }
+    to{
+        transform: scaleY(1);
+    }  
+}
+.scaleX{
+    background-color: brown;
+    border: 4px solid rgb(91, 58, 58);
+    animation: shubh 2s alternate infinite cubic-bezier(0, 0.05, 0.99, 0.84);
+}
+@keyframes shubh {
+    from{
+        transform: scaleX(1);
+    }
+    to{
+        transform: scaleX(0.5);
+    }
+}
+.rotate{
+    background-color: green;
+    border: 4px solid darkgreen;
+    animation: shubham 2s alternate infinite cubic-bezier(0, 0.05, 0.99, 0.84);
+}
+@keyframes shubham {
+    from{
+        transform: rotate(20deg);
+    }
+    to{
+        transform: rotate(-90deg);
+    }
+}
